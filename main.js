@@ -6,8 +6,12 @@ let km;
 const formEl = document.querySelector('#form')
 console.log(formEl);
 
-formEl.addEventListener('genera',function (e){
+formEl.addEventListener('submit',function (e){
     e.preventDefault()
+    const specificSizeInputName = e.target.specificSizeInputName.value
+    console.log(specificSizeInputName);
+    
+    
 })
 // seconda face: raccolta dati
 const priceNumber = 0.21
